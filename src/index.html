@@ -6,9 +6,311 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DAOpunks</title>
 
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+    <div
+      style="
+        background-image: url(../assets/images/backgrounds/hero-background.png);
+      "
+      class="w-full h-screen bg-gray-300 bg-cover "
+    >
+      <div>
+        <div
+          class="
+            w-full
+            p-8
+            pb-0
+            sm:p-10
+            lg:p-14 
+            flex
+            items-center
+            justify-between
+          "
+        >
+          <img class="sm:h-16 w-32" src="../assets/images/hero/logo.png" />
+           <div class=" hidden text-white modius-bold text-xl pl-20 xl:inline-flex ">
+          <nav >
+            <a href="#about">ABOUT</a>        / <a href="#connect">MINT</a>/
+            <a href="#roadmap">ROADMAP</a>/ <a href="#team">TEAM</a>/
+            <a href="https://twitter.com/DAOpunksNFT" target="_blank"
+              >CONTACT</a
+            >
+          </nav>
+        </div>
+          <img id="tryy" onclick="chichu()" class=" md:invisible" src="../assets/images/hero/hamburger-icon.png" alt="" />
+          <div class=" hidden flex flex-row gap-x-8 md:inline-flex">
+         <a class=" mt-4" href="https://twitter.com/DAOpunksNFT" target="_blank"><img src="../assets/images/sidebar/twitter.png" height="32px" width="32px" alt=""></a> 
+         <a class="mt-4" href="https://discord.com/invite/t9YfHJWAP9" target="_blank"><img src="../assets/images/sidebar/discord.png" height="32px" width="32px" alt=""></a>
+         <a href="#connect"><button class="
+            
+            bg-black
+            modius-bold
+            text-white
+            py-4
+            px-5
+            text-xl">CONNECT</button></a>
+          </div>
+        </div>
+      </div>
+      <div class=" my-20 flex flex-col justify-center text-3xl text-center text sm:my-24 xl:text-left text-7xl">
+        <div class=" modius-bold text-4xl text-white sm:text-6xl text-center md:text-5xl ">
+          We BLAZE <br />
+          TRAILS. <br />WE BUILD <br />
+          BRIDGES.
+        </div>
+        <div class=" modius-normal text-4xl text-white sm:text-4xl text-center md:text-3xl">
+          A BETTER WORLD<br />
+          AWAITS DAOPUNKS <br />
+          LEAD THE WAY
+        </div>
+      <div class=" flex justify-center items-center ">
+        <button
+          class="
+            mt-16
+            rounded-xl
+            bg-white
+            modius-bold
+            sm:bg-white
+            py-6
+            px-8
+            text-xl
+          "
+        >
+          CONNECT YOUR WALLET
+        </button>
+        </div> 
+      </div>
+  
+    </div>
+
+
+    <div id="about" class="w-full">
+      <h1 class=" text-center modius-bold sm:text-center text-3xl mt-16 text-red-600 mx-4 lg:text-7xl lg:text-5xl	">
+        CORPORATE PUNK TO DAOPUNK
+      </h1>
+
+      <div class=" mx-6 lg:mx-5 text-xl">
+
+      <p class=" sm:mx-12 text-center mt-12 ">
+        DAOpunks’s mission is to enable humans to liberate themselves from the
+        soul-sucking drudgery of default world work and lead them to the
+        rewarding, expansive freedom found in meaningful DAO work.
+      </p>
+      <p class="sm:mx-12 text-center mt-8 lg:mx-36">
+        DAOpunks blaze new trails, leading others to fertile promised lands,
+        where they find opportunity, meaningful work, community, and untold
+        abundance. We build the bridges. We blaze the trails. With openness, we
+        invite others to join us. Together we go further. A better world awaits.
+        DAOpunks lead the way.
+      </p>
+      </div>
+
+      <div class=" mx-5 gap-x-8 grid justify-items-center mt-10 sm:grid gap-8 justify-items-center xl:grid-cols-3 ">
+        <img class="rounded-xl"
+          src="../assets/images/nfts/1.jpg"
+          height="400px"
+          width="400px"
+          alt=""
+        />
+        <img class="rounded-xl"
+          src="../assets/images/nfts/2.jpg"
+          height="400px"
+          width="400px"
+          alt=""
+        />
+        <img class="rounded-xl"
+          src="../assets/images/nfts/3.jpg"
+          height="400px"
+          width="400px"
+          alt=""
+        />
+       </div>
+       <div id="hide" class="mx-5 gap-x-8 grid justify-items-center mt-10 sm:grid gap-8 justify-items-center xl:grid-cols-3 ">
+         <img class="rounded-xl"
+          src="../assets/images/nfts/4.jpg"
+          height="400px"
+          width="400px"
+          alt=""
+        />
+        <img class="rounded-xl"
+          src="../assets/images/nfts/5.jpg"
+          height="400px"
+          width="400px"
+          alt=""
+        />
+        <img class="rounded-xl"
+          src="../assets/images/nfts/6.jpg"
+          height="400px"
+          width="400px"
+          alt=""
+        />
+        <img class="rounded-xl"
+          src="../assets/images/nfts/7.jpg"
+          height="400px"
+          width="400px"
+          alt=""
+        />
+        <img class="rounded-xl"
+          src="../assets/images/nfts/8.jpg"
+          height="400px"
+          width="400px"
+          alt=""
+        />
+        <img class="rounded-xl"
+          src="../assets/images/nfts/9.jpg"
+          height="400px"
+          width="400px"
+          alt=""
+        />
+        </div>
+      
+
+      <div id="try-out" onclick="myFunction()" class=" sm:flex flex items-center justify-center  ">
+      <button id="aaa"
+        class="
+          modius-bold
+          text-red-600
+          mt-20
+          mb-20
+          text-2xl
+        "
+      > show more 
+     
+      </button>
+      </div> 
+    </div>
+
+    <div id="connect"
+      style="
+        background-image: url(../assets/images/backgrounds/mint-background.png);
+      "
+      class="w-full h-screen"
+    >
+      <h1 class= " text-4xl sm:text-5xl text-center py-48 modius-bold text-red-600 lg:text-7xl">
+        BE A PIONEER. <br />
+        BLAZE TRAILS <br />
+        WITH US
+      </h1>
+<div class="flex justify-center items-center">
+      <button
+        class="
+          rounded-xl
+          bg-white
+          modius-bold
+          py-6
+          px-3
+          text-sm
+          sm:bg-white
+          text-xl
+        "
+      >
+        CONNECT YOUR WALLET
+      </button>
+      </div> 
+    </div>
+
+    <div id="roadmap" class=" flex flex-col items-center gap-x-16 mt-20">
+
+      <div class=" px-5 xl:flex flex-row items-center">
+        <img class=" max-w-60" src="../assets/images/roadmap/01.png" alt="">
+        <div class="max-w-sm xl:max-w-xl">
+          <div class=" modius-bold mt-5 text-red-600 text-2xl xl:3xl">MINT YOUR DAOPUNK</div>
+           <div>Public mint. DAOPunks will be available to mint in October. Each of these DAOPunks will be unique and have generative traits.</div>
+        </div>
+      </div>
+
+       <div class=" px-5  lg:flex flex-row gap-y-16 ">
+        <img class="" src="../assets/images/roadmap/02.png " alt="">
+        <div class="max-w-sm xl:max-w-xl">
+          <div class=" modius-bold mt-5 text-red-600 text-2xl xl:3xl">Claim your shirt printed with your exact NFT and unique identifiers</div>
+           <div>Each DAOpunk NFT minted from the Phase 1 public sale will be entitled to a limited edition tee. The physical tee will feature your DAOpunk JPEG along with metadata and QR code for proof of ownership IRL. These unique identifiers will actually be in the print design on the shirt itself! The claim window will be announced after the public mint.</div>
+        </div>
+      </div>
+
+       <div class=" px-5  lg:flex flex-row gap-y-16 ">
+        <img class=" " src="../assets/images/roadmap/03.png" alt="">
+        <div class="max-w-sm xl:max-w-xl ">
+          <div class=" modius-bold mt-5 text-red-600 text-2xl xl:3xl">Free humans from soul-sucking work! DAOpunks “public goods” grant initiated. Bridge from default jobs to full-time DAO work</div>
+           <div>We have received some amazing suggestions from the community on future projects and perks for DAOpunks token holders. In an effort to kickstart these projects, we will be allocating 25% of the public sale to the DAOpunks public treasury. The DAOpunks public treasury will be primarily used to fund community-approved projects that have the ideals of growing and supporting the overall DAO ecosystem and the people behind it. These ideas revolve around providing a “public goods” style grant that will provide funds to people who want to move from a traditional job into full time DAO work. From CORPORATEpunk to DAOpunk. Think Tradcorp off-ramp, DAO-life on ramp. 50% of all secondary sales revenue will be allocated to the DAOpunks public treasury to continue funding these initiatives.</div>
+        </div>
+      </div>
+
+       <div class=" px-5  lg:flex flex-row gap-y-16 ">
+        <img class="" src="../assets/images/roadmap/04.png" alt="">
+        <div class="max-w-sm xl:max-w-xl">
+          <div class=" modius-bold mt-5 text-red-600 text-2xl xl:3xl">“How To DAO” A massive DAO-DAO collaboration project initiated</div>
+           <div>After the success of our DAOpunks NFT-Merch launch, we will launch How To DAO. How To DAO will be a large-scale collaboration between 50+ DAOs, the likes of which the world has never before seen. An artist will be chosen from each DAO to create a piece of artwork that plays with the DAOpunks ethos and stays true to their DAO. DAOpunks will share our innovative printing technology with other DAOs, allowing each artwork created by the DAO artists to be sold as an NFT and be coupled with a redeemable merch item that contains the exact NFT and unique identifiers. Sales revenue will flow into the DAOpunks public treasury to fund public-goods grants and projects that will help bring more people into thriving full-time DAO work. Our ecosystem will grow stronger and healthier because of our contributions.</div>
+        </div>
+      </div>
+
+       <div class=" px-5 lg:flex flex-row gap-y-16 ">
+        <img class="" src="../assets/images/roadmap/05.png" alt="">
+        <div class="max-w-sm xl:max-w-xl">
+          <div class=" modius-bold mt-5 text-red-600 text-2xl xl:3xl">DAOpunk merch store and limited edition merch drops</div>
+           <div>Featuring limited edition tees, hoodies, metaverse wearables, and other goodies to spread our DAOculture IRL. If you look closely at the DAOpunks, you will see many possible future merch items. Which one will we choose? Join us and add your voice.</div>
+        </div>
+      </div>
+
+       <div class=" px-5 lg:flex flex-row gap-y-16 ">
+        <img class="" src="../assets/images/roadmap/06.png" alt="">
+        <div class="max-w-sm xl:max-w-xl">
+          <div class=" modius-bold mt-5 text-red-600 text-2xl xl:3xl">More DAO-DAO collaborations and DAOpunk NFT drops</div>
+           <div>We will continue to explore innovative new methods to fund our treasury and contribute to the goal of helping to free humans from the slavery of the work found in the trenches of traditional companies.</div>
+        </div>
+      </div>
+
+       <div class=" px-5 lg:flex flex-row gap-y-16 ">
+        <img class="" src="../assets/images/roadmap/07.png" alt="">
+        <div class="max-w-sm xl:max-w-xl  ">
+          <div class=" modius-bold mt-5 text-red-600 text-2xl xl:3xl">All humans are freed! Free from default world drudgery. Full-time DAO destiny for all those who desire it</div>
+           <div>All humans are freed from the drudgery of mindless, soul-sucking work and it’s directly because of the contributions from the DAOpunks community.</div>
+        </div>
+      </div>
+     
+    </div>
+    
+
+    <div id="team" style="background-image: url(../assets/images/backgrounds/team-background.png);" id="team" class=" mt-20 sm:w-screen h-max bg-cover flex flex-col items-center">
+        
+      <h1 class="mx-20 mt-10 lg:mt-40 md:mt-32 text-white red-text-shadow modius-bold text-5xl md:text-7xl text-center">MEET THE TEAM</h1>
+      
+      <div class=" my-24 mx-10 xl:flex flex-row  ">
+      <div class=" sm:max-w-sm xl:w-60 2xl:w-72 flex flex-col items-center mx-5">
+        <img src="../assets/images/team/crypto-bushi.png" alt="">
+        <div class="mt-8 open-sans-bold text-lg text-white text-center">ARTIST</div>
+        <div class="modius-bold text-3xl text-white text-center" style="max-width: 15rem;">CRYPTO BUSHI</div><a class="mt-6 max-w-xs open-sans text-xl text-white text-center" href="https://twitter.com/thecryptobushi" target="_blank" rel="noreferrer" style="max-width: 15rem;">@thecryptobushi</a>
+      </div>
+
+      <div class="sm:max-w-sm xl:w-60 2xl:w-72 flex flex-col items-center mx-5">
+        <img src="../assets/images/team/sinjun.png" alt="">
+        <div class="mt-8 open-sans-bold text-lg text-white text-center">FASHION</div>
+        <div class="modius-bold text-3xl text-white text-center" style="max-width: 15rem;">SINJUN</div>
+        <a class="mt-6 max-w-xs open-sans text-xl text-white text-center" href="https://twitter.com/SinjunART" target="_blank" rel="noreferrer" style="max-width: 15rem;">@SinjunART</a>
+      </div>
+
+      <div class=" sm:max-w-sm xl:w-60 2xl:w-72 flex flex-col items-center mx-5">
+        <img src="../assets/images/team/bankless.png" alt="">
+        <div class="mt-8 open-sans-bold text-lg text-white text-center">PARTNER</div>
+        <div class="modius-bold text-3xl text-white text-center" style="max-width: 15rem;">BANKLESS DAO</div>
+        <a class="mt-6 max-w-xs open-sans text-xl text-white text-center" href="https://twitter.com/banklessDAO" target="_blank" rel="noreferrer" style="max-width: 15rem;">@banklessDAO</a>
+      </div>
+
+      <div class=" sm:max-w-sm xl:w-60 2xl:w-72 flex flex-col items-center mx-5">
+        <img src="../assets/images/team/floc.png" alt="">
+        <div class="mt-8 open-sans-bold text-lg text-white text-center">DESIGN</div>
+        <div class="modius-bold text-3xl text-white text-center" style="max-width: 15rem;">FLOC*</div>
+        <a class="mt-6 max-w-xs open-sans text-xl text-white text-center" href="https://twitter.com/wearefloc" target="_blank" rel="noreferrer" style="max-width: 15rem;">@wearefloc</a>
+      </div>
+      </div>
+    </div>
+
+  <div class=" bg-black w-full h-20 text-white flex items-center justify-center sm:text-sm xl: text-2xl">DAOPunks® - 2021</div>
+
     <script src="index.js"></script>
   </body>
 </html>

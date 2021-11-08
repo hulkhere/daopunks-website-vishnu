@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "modius-bold";
+    src: url("../assets/fonts/Modius-Bold.woff");
+}
+
+.modius-bold {
+     font-family: "modius-bold"
+}
+
+@font-face {
+    font-family:"modius-normal" ;
+    src: url("../assets/fonts/Modius.woff");
+}
+.modius-normal{
+
+    font-family:"modius-normal";
+}
+
+html{
+    scroll-behavior: smooth;
+}
