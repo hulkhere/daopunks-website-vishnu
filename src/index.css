@@ -7,3 +7,15 @@
      font-family: "modius-bold"
 }
 
+@font-face {
+    font-family:"modius-normal" ;
+    src: url("../assets/fonts/Modius.woff");
+}
+.modius-normal{
+
+    font-family:"modius-normal";
+}
+
+html{
+    scroll-behavior: smooth;
+}
